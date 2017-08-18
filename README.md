@@ -22,7 +22,7 @@
 
          By EzeSoler                                                                    v 1.0
 
-###### GENERADOR DE CÓDIGOS ALEATORIOS Y ÚNICOS
+## GENERADOR DE CÓDIGOS ALEATORIOS Y ÚNICOS
 
 ##### Requerimientos
 * Python 2.x
@@ -31,6 +31,8 @@
 
 ##### Testeado en
 * Windows 10
+* Debian 8.5
+* Kali Linux 2016.2
 
 ### Instalacion y ejecución:
 ```
