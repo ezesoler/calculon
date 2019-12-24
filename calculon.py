@@ -64,28 +64,26 @@ def clear():
 
 def banner():
     clear()
-    print(Fore.GREEN + '''
-              ,     ,
-             (\____/)
-              (_oo_)
-                (O)
-              __||__    \)
-           []/______\[] /
-           / \______/ \/
-          /    /__\
-         (\   /____\
-
-             .d8888b.        d8888 888      .d8888b.  888     888 888      .d88888b.  888b    888
-            d88P  Y88b      d88888 888     d88P  Y88b 888     888 888     d88P" "Y88b 8888b   888
-            888    888     d88P888 888     888    888 888     888 888     888     888 88888b  888
-            888           d88P 888 888     888        888     888 888     888     888 888Y88b 888
-            888          d88P  888 888     888        888     888 888     888     888 888 Y88b888
-            888    888  d88P   888 888     888    888 888     888 888     888     888 888  Y88888
-            Y88b  d88P d8888888888 888     Y88b  d88P Y88b. .d88P 888     Y88b. .d88P 888   Y8888
-             "Y8888P" d88P     888 88888888 "Y8888P"   "Y88888P"  88888888 "Y88888P"  888    Y888
-
-             By EzeSoler                                                                    v 2.0
-            ''')
+    print(Fore.GREEN,
+            '''		  ,     ,
+	         (\____/)
+	          (_oo_)
+	            (O)
+	          __||__    \)
+	       []/______\[] /
+	       / \______/ \/
+	      /    /__\                                                                          
+	     (\   /____\                                                                         
+                                                                                             
+		 .d8888b.        d8888 888      .d8888b.  888     888 888      .d88888b.  888b    888 
+		d88P  Y88b      d88888 888     d88P  Y88b 888     888 888     d88P" "Y88b 8888b   888 
+		888    888     d88P888 888     888    888 888     888 888     888     888 88888b  888 
+		888           d88P 888 888     888        888     888 888     888     888 888Y88b 888 
+		888          d88P  888 888     888        888     888 888     888     888 888 Y88b888 
+		888    888  d88P   888 888     888    888 888     888 888     888     888 888  Y88888 
+		Y88b  d88P d8888888888 888     Y88b  d88P Y88b. .d88P 888     Y88b. .d88P 888   Y8888 
+		 "Y8888P" d88P     888 88888888 "Y8888P"   "Y88888P"  88888888 "Y88888P"  888    Y888 
+		 By EzeSoler                                                                    v 2.0''')
 
 def _join_to_string(*args):
     return(''.join(args))
@@ -95,7 +93,7 @@ def longoption():
 
         print(
                 Fore.YELLOW, '\n',
-                '\n', 'Generador de codigos aleatorios y unicos.',
+                '\n', 'Generador de códigos aleatorios y únicos.',
                 '\n', 'Ingrese el numero de logitud que debera tener el codigo (Ej. 6)')
         try:
 
@@ -269,16 +267,16 @@ def exportcodes():
                 file_.write('{}\n'.format(row[0]))
 
     clear()
-    print(Fore.GREEN, '''
-              ,     ,
-             (\____/)
-              (_oo_)
-                (O)
-              __||__    \)
-           []/______\[] /
-           / \______/ \/
-          /    /__\
-         (\   /____\   ''')
+    print(Fore.GREEN,
+            '''		  ,     ,
+	         (\____/)
+	          (_oo_)
+	            (O)
+	          __||__    \)
+	       []/______\[] /
+	       / \______/ \/
+	      /    /__\                                                                          
+	     (\   /____\   ''')
     print(
             Fore.YELLOW,
             '\n', 'El archivo {}.{} se ha exportado correctamente ;)'.format(filename, config.formatcode), '\n')
