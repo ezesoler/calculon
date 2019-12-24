@@ -20,27 +20,28 @@
         Y88b  d88P d8888888888 888     Y88b  d88P Y88b. .d88P 888     Y88b. .d88P 888   Y8888 
          "Y8888P" d88P     888 88888888 "Y8888P"   "Y88888P"  88888888 "Y88888P"  888    Y888 
 
-         By EzeSoler                                                                    v 1.0
+         By EzeSoler                                                                    v 2.0
 
 ## GENERADOR DE CÓDIGOS ALEATORIOS Y ÚNICOS
 
 ##### Requerimientos
-* Python 2.x
+* Python 3.x
 * [xlsxwriter](https://pypi.python.org/pypi/XlsxWriter)
 * [colorama](https://pypi.python.org/pypi/colorama)
 
 ##### Testeado en
 * Windows 10
 * Debian 8.5
-* Kali Linux 2016.2
+* Kali Linux 2016.2, 2017.1
+* Wine
 
 ### Instalacion y ejecución:
 ```
 git clone https://github.com/ezesoler/calculon.git
 ```
 ```
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 ```
-python ./calculon.py
+python3 ./calculon.py
 ```
